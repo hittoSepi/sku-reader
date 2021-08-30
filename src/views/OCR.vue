@@ -2,7 +2,7 @@
   <ion-page>
     <ion-header>
       <ion-toolbar>
-        <ion-title>OCR Reader</ion-title>
+        <ion-title>Bauhaus SKU-Lukija</ion-title>
       </ion-toolbar>
     </ion-header>
     <ion-content fullscreen="true">
@@ -26,10 +26,6 @@ export default defineComponent({
     IonHeader,
     IonButton,
   },
-  data() {
-    return {};
-  },
-
   methods: {
     ocr: function (url) {
       Tesseract.recognize(url);
