@@ -31,13 +31,9 @@ const app = createApp(App)
 
 
 //app.config.globalProperties.$ = $;
-app.config.globalProperties.$apiHost = 'https://app.lahti.tk:8081';
+//pp.config.globalProperties.$apiHost = 'https://app.lahti.tk:8081';
 
-import Mittari from './components/Mittari.vue';
-app.component('mittari', Mittari);
 
-import PowerButton from './components/PowerButton.vue';
-app.component('power-button', PowerButton);
 
 app.component('fake-item', {
 	template: `<div class="white-widget grey-bg author-area">
